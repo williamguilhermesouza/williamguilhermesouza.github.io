@@ -11,7 +11,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
-import '../../fontAwesome6script'; 
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">

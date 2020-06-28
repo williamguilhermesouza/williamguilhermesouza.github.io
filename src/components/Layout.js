@@ -49,6 +49,7 @@ class Layout extends Component {
                 { name: 'portfolioSite', content: 'William Souza' },
                 { name: 'portfolioSite', content: 'site, web' },
               ]}
+              script={{src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}}
             >
               <html lang="pt-br" />
             </Helmet>
