@@ -81,7 +81,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/enderecosalunosapi" className="image" onClick={scrollTo(0,0)}>
+              <a href="/enderecosalunosapi" className="image" >
                 <img src={pic4} alt="" />
               </a>
               <h3 className="major">API Endereços e Alunos</h3>
