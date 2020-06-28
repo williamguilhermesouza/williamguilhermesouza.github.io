@@ -5,7 +5,6 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 
-window.scrollTo(0,0);
 
 const IndexPage = () => (
   <Layout fullMenu>
