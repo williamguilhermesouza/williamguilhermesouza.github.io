@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/pic01.jpg';
-import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
@@ -58,17 +57,14 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="diploma" />
-          </a>
           <div className="content">
-            <h2 className="major" style={{textAlign: 'justify'}}>&nbsp; &nbsp; &nbsp; &nbsp; Cursos e Certificações</h2>
+            <h2 className="major" style={{textAlign: 'justify'}}>Cursos e Certificações</h2>
               <ul className="contact" style={{textAlign: 'justify'}}>
-                <li>
+                <li className="fa-university">
                     <p><b>CS50's Introduction to Computer Science</b></p>
                     Curso de Introdução a Ciência da Computação CS50 ministrado pela Universidade de Harvard, onde desenvolvi conhecimentos sobre estrutura de dados                     e algoritmos, implementados na prática em cada etapa do curso. Ao final do curso criei algumas aplicações para Android utilizando Java e ao                        final foi entregue um projeto completo de uma aplicação web usando react.
                 </li>
-                <li>
+                <li className="fa-python">
                     <p><b>PCAP Associate in Python Programming</b></p>
                     Possuo a certificação PCAP em programação Python, comprovando vasto conhecimento na área de programação, demonstrando capacidade de pensamento                       lógico e planejamento das soluções em sistemas.
                 </li>
@@ -85,50 +81,50 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="/enderecosalunosapi" className="image">
                 <img src={pic4} alt="" />
               </a>
               <h3 className="major">API Endereços e Alunos</h3>
               <p>
                 Uma API de backend criada para a interação com um banco de dados onde são guardadas informações de Alunos e seus Endereços. A aplicação foi construída utilizando Arquitetura REST e GraphQL, em conjunto com NestJS. Neste projeto foi utilizado o banco de dados PostgreSQL, integrado através da ORM TypeORM, padrão utilizado no Nest. Ainda, foram utilizados padrões de projeto de injeção de dependência, decorators, entre outros. 
               </p>
-              <a href="/#" className="special">
+              <a href="/enderecosalunosapi" className="special">
                 Saiba mais
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/bethehero" className="image">
                 <img src={pic5} alt="" />
               </a>
               <h3 className="major">Projeto Be The Hero</h3>
               <p>
                 Projeto Fullstack completo, de uma aplicação que tinha por objetivo integrar possíveis doadores à instituições de caridade. Nesse projeto foi desenvolvido um backend em NodeJS, sobre o express, e conexão com banco de dados sqlite3, um frontend web, utilizando ReactJS, e ainda um aplicativo mobile utilizando React-Native.
               </p>
-              <a href="/#" className="special">
+              <a href="/bethehero" className="special">
                 Saiba mais
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/devradar" className="image">
                 <img src={pic6} alt="" />
               </a>
               <h3 className="major">DevRadar</h3>
               <p>
                 Mais um projeto Fullstack, com o objetivo de ser um radar de desenvolvedores, onde um desenvolvedor pode se cadastrar na aplicação, buscar e ser encontrado por outros desenvolvedores para troca de experiências. Nesta aplicação foi utilizado um backend feito em NodeJS e express, banco de dados não relacional MongoDB, frontend web em React e mobile em React-Native. Ainda, foi utilizada a biblioteca socket.io para atualizações de interface em tempo real.
               </p>
-              <a href="/#" className="special">
+              <a href="/devradar" className="special">
                 Saiba mais
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/spasaude" className="image">
                 <img src={pic7} alt="" />
               </a>
               <h3 className="major">Spa & Saude</h3>
               <p>
                 Um aplicativo com objetivo de fornecer serviços de fisioterapia e massagem, a clientes em diversos locais, conectando o fisioterapeuta a seus clientes. O aplicativo foi desenvolvido utilizando React-Native, e recursos externos integrados ao Firebase.
               </p>
-              <a href="/#" className="special">
+              <a href="/spasaude" className="special">
                 Saiba mais
               </a>
             </article>

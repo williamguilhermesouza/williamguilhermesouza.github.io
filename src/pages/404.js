@@ -8,7 +8,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Página não encontrada</h2>
-          <p>Link inválido</p>
+          <p>Infelizmente a página buscada não foi encontrada</p>
         </div>
       </header>
     </section>

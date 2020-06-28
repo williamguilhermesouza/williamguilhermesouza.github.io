@@ -22,7 +22,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="#one"
+              to="/#one"
             >
               Quem sou
             </Link>
@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="#four"
+              to="/#four"
             >
               Portfolio
             </Link>
