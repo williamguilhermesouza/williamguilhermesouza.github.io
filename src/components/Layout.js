@@ -48,6 +48,7 @@ class Layout extends Component {
               meta={[
                 { name: 'portfolioSite', content: 'William Souza' },
                 { name: 'portfolioSite', content: 'site, web' },
+                { name: 'google-site-verification', content: 'b5hvnS-sH3L0AV7e-t1VJyi4TN_7S0d_Piry8ebD3sg'},
               ]}
               script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}]}
             >

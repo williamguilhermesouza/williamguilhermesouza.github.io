@@ -7,6 +7,9 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import pic9 from '../assets/images/pic09.gif';
+import pic10 from '../assets/images/pic10.jpg';
+
 
 import config from '../../config';
 
@@ -125,6 +128,31 @@ const IndexPage = () => (
                 Um aplicativo com objetivo de fornecer serviços de fisioterapia e massagem, a clientes em diversos locais, conectando o fisioterapeuta a seus clientes. O aplicativo foi desenvolvido utilizando React-Native, e recursos externos integrados ao Firebase.
               </p>
               <a href="/spasaude" className="special">
+                Saiba mais
+              </a>
+            </article>
+            <article>
+              <a href="/weatherforecast" className="image">
+                <img src={pic9} alt="" />
+              </a>
+              <h3 className="major">Sistema de Previsão</h3>
+              <p>
+              Projeto com o objetivo de mostrar a previsão do tempo com base em uma API Openweather.
+              </p>
+              <a href="/weatherforecast" className="special">
+                Saiba mais
+              </a>
+            </article>
+            <article>
+              <a href="/fisiorespiratoria" className="image">
+                <img src={pic10} alt="" />
+              </a>
+              <h3 className="major">App Fisiorespiratória</h3>
+              <p>
+                Esse aplicativo tem o objetivo de realizar cálculos referentes a área de fisioterapia respiratória, e mostrar as 
+                condições do paciente baseadas nesses cálculos. 
+              </p>
+              <a href="/fisiorespiratoria" className="special">
                 Saiba mais
               </a>
             </article>

@@ -22,7 +22,11 @@ const IndexPage = () => (
             <img src={pic7} alt="api" />
           </span>
           <p>
-            Este projeto está atualmente sob desenvolvimento, ao final entregará um aplicativo com o objetivo de integrar uma empresa de fisioterapia e massagem (Spa & Saude) aos seus clientes, para que possa realizar o agendamento de seus atendimentos via aplicativo. O aplicativo está sendo desenvolvido utilizando as tecnologias React-Native e Firebase.
+            Este projeto está atualmente sob desenvolvimento, uma versão preliminar do app encontra-se na google playstore 
+            neste <a href="https://play.google.com/store/apps/details?id=com.spasaude.spasaude">link</a>. 
+            Ao final entregará um aplicativo com o objetivo de integrar uma empresa de fisioterapia e massagem 
+            (Spa & Saude) aos seus clientes, para que possa realizar o agendamento de seus atendimentos via aplicativo. 
+            O aplicativo está sendo desenvolvido utilizando as tecnologias React-Native e Firebase.
           </p>
 
           <p> Veja o código completo da aplicação no <a href="https://github.com/williamguilhermesouza/SpaSaude" target="_blank">Github</a></p>
