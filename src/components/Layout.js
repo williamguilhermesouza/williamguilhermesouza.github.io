@@ -49,6 +49,9 @@ class Layout extends Component {
                 { name: 'portfolioSite', content: 'William Souza' },
                 { name: 'portfolioSite', content: 'site, web' },
                 { name: 'google-site-verification', content: 'Su-5Ef0wBRoOeu6N_bHt2S-hLKpZpXzcLV-BkM0vJno'},
+                { name: 'description', content: 'Desenvolvedor Fullstack especializado no desenvolvimento de sistemas web'},
+                { name: 'robots', content: 'index, follow'},
+                { name: 'keywords', content: 'william, souza, william souza, william guilherme souza, dev, programador, desenvolvedor, fullstack, javascript, js, angular, react, react native, expo, mobile'},
               ]}
               script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}]}
             >
