@@ -53,7 +53,7 @@ class Layout extends Component {
                 { name: 'robots', content: 'index, follow'},
                 { name: 'keywords', content: 'william, souza, william souza, william guilherme souza, dev, programador, desenvolvedor, fullstack, javascript, js, angular, react, react native, expo, mobile'},
               ]}
-              script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}, {type: "text/javascript", src: "https://www.googletagmanager.com/gtag/js?id=UA-165408719-1"}, {type: "text/javascript", src: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}; gtag('js', new Date());gtag('config', 'UA-165408719-1');"}]}
+              script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}]}
             >
               <html lang="pt-br" />
             </Helmet>

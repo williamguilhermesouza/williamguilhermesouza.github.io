@@ -21,5 +21,11 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "UA-165408719-1",
+      }
+    }
   ],
 };
