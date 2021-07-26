@@ -53,11 +53,7 @@ class Layout extends Component {
                 { name: 'robots', content: 'index, follow'},
                 { name: 'keywords', content: 'william, souza, william souza, william guilherme souza, dev, programador, desenvolvedor, fullstack, javascript, js, angular, react, react native, expo, mobile'},
               ]}
-              script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}, {type: "text/javascript", src=`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5GX32KH');`}]}
+              script={[{ type: "text/javascript", src: "https://kit.fontawesome.com/de34cd2f4b.js", crossOrigin: "anonymous"}]}
             >
               <html lang="pt-br" />
             </Helmet>
@@ -65,8 +61,6 @@ class Layout extends Component {
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
             >
               <div id="page-wrapper">
-                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GX32KH"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <SideBar fullMenu={fullMenu} />
                 {children}
                 <Footer />
