@@ -9,6 +9,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic9 from '../assets/images/pic09.gif';
 import pic10 from '../assets/images/pic10.jpg';
+import pic11 from '../assets/images/pic11.jpg';
 
 
 import config from '../../config';

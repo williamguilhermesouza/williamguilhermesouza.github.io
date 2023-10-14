@@ -20,10 +20,10 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/william-guilherme-45540a171',
+      url: 'https://www.linkedin.com/in/william-souza-45540a171/',
     },
   ],
   mail: 'williamguilhermesouza@gmail.com',
   phone: '+55 21 981008743',
-  address: 'Rua Riodades - Fonseca, Niterói/RJ - Brasil',
+  address: 'Rua Primeira de Araruama - Araruama/RJ - Brasil',
 };
