@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/william-souza-45540a171/',
+      url: 'https://www.linkedin.com/in/williamsouzadev',
     },
   ],
   mail: 'williamguilhermesouza@gmail.com',

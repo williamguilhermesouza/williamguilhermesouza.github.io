@@ -10,6 +10,8 @@ import pic7 from '../assets/images/pic07.jpg';
 import pic9 from '../assets/images/pic09.gif';
 import pic10 from '../assets/images/pic10.jpg';
 import pic11 from '../assets/images/pic11.jpg';
+import pic12 from '../assets/images/pic12.jpg';
+
 
 
 import config from '../../config';
@@ -30,7 +32,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="profilePic" />
+            <img src={pic12} alt="profilePic" />
           </a>
           <div className="content">
             <h2 className="major">Quem sou</h2>
@@ -46,10 +48,11 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Habilidades</h2>
               <ul className="contact">
-                <li className="fa-code"><b>Clean Code</b> - Utilizo o desenvolvimento com código limpo, legível e de fácil manutenção, obedecendo todas as determinações de documentação e Boas Práticas.</li>
                  <li className="fa-js-square"><b>Javascript ES 6</b> - Experiência com desenvolvimento JavaScript utilizando as últimas features da linguagem.</li>
                  <li className="fa-angular"><b>Typescript</b> - Utilização do superset/linguagem tipada Typescript (usado como padrão pelo framework Angular), buscando dar maior segurança e estabilidade as aplicações.</li>
                  <li className="fa-react"><b>React e React-Native</b> - Conhecimento das tecnologias React e React-Native, para sistemas frontend e desenvolvimento de aplicativos para smartphones.</li>
+                 <li className="fa-python"><b>Python</b> - Vasto conhecimento na linguagem de programação Python, comprovada por meio da certificação PCAP.</li>
+                 <li className="fa-code"><b>Clean Code</b> - Utilizo o desenvolvimento com código limpo, legível e de fácil manutenção, obedecendo todas as determinações de documentação e Boas Práticas.</li>
                  <li className="fa-connectdevelop"><b>GraphQL</b> - Experiência na utilização de GraphQL, facilitando a interação e principalmente a consulta das APIs de backend.</li>
                  <li className="fa-dharmachakra"><b>Rest API</b> - Conhecimento para criação de Rotas backend no modelo Rest API, trazendo maior velocidade as consulta ao Banco de Dados e a possibilidade de reutilização do backend da aplicação.</li>
                  <li className="fa-node-js"><b>NestJS</b> - Utilização do framework NestJS e aplicação de design patterns como Dependency Injection, trazendo uma maior organização a estrutura e arquitetura da aplicação.</li>
